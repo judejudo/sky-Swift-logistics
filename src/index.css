@@ -1,13 +1,25 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+.dashed-line {
+    width: 2px; /* Line thickness */
+    height: 127px; /* Line length */
+    border-left: 2px dashed black; /* Dashed line */
+    transform: rotate(120deg); /* Rotate the line by 45 degrees */
+  }
+
+  .dashed-line2 {
+    width: 2px; /* Line thickness */
+    height: 145px; /* Line length */
+    border-left: 2px dashed black; /* Dashed line */
+    transform: rotate(230deg); /* Rotate the line by 45 degrees */
+  }
+
+  .dashed-line3 {
+    width: 2px; /* Line thickness */
+    height: 127px; /* Line length */
+    border-left: 2px dashed black; /* Dashed line */
+    transform: rotate(120deg); /* Rotate the line by 45 degrees */
+  }
